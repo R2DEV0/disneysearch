@@ -112,8 +112,8 @@ function App() {
                 })
                 .map((item, i) => { return <div key={i} className="col-lg-3 col-md-5 col-12 card">
                   <ul style={{listStyle:'none'}}>
-                    <li><h2>{item.name}</h2></li>
-                    <li> <img src={item.imageUrl} alt="character"  /> </li>
+                    <li style={{fontWeight: '800'}}><h2>{item.name}</h2></li>
+                    <li> <img src={item.imageUrl} alt="character" height={150} /> </li>
                     <li><span className='label'>Films:</span> {item.films.map((films, j) => {return <span key={j}>{films}.</span>})} </li>
                     <li><span className='label'>TV Shows:</span> {item.tvShows.map((shows, k) => {return <span key={k}>{shows}.</span>})} </li>
                     <li><span className='label'>Video Games:</span> {item.videoGames.map((games, l) => {return <span key={l}>{games}.</span>})} </li>
