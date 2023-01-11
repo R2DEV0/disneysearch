@@ -1,0 +1,23 @@
+body, html{
+    background-color: #dddddd;
+}
+
+.card{
+    background-color: #fafafa;
+    min-height: 500px;
+    border: 1px solid gray;
+    margin: ;
+     margin: '8px', padding: '5px', borderRadius: '5px', boxShadow: '3px 3px 5px gray'}}
+}
+
+li{
+    margin-top: 10px;
+}
+
+img{
+    border-radius: 5px;
+}
+
+span{
+    font-weight: 700;
+}
