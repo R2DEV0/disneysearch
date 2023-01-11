@@ -78,7 +78,7 @@ function App() {
   const ClearSearch = () => {
     setErrorMessage("");
     setFilterText("");
-    setFilterTextCleared(!filterTextCleared);
+    setFilterTextCleared(!filter);
   }
   //#endregion
 
