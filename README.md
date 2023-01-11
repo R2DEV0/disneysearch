@@ -1,7 +1,7 @@
 
 In the project directory, run:
 
-#?## `npm i`
+### `npm i`
 This will install all needed dependencies to run the app.
 
 ### `npm start`
