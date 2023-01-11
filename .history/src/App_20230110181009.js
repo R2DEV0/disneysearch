@@ -114,11 +114,11 @@ function App() {
                   <ul style={{listStyle:'none'}}>
                     <li style={{fontWeight: '800'}}><h2>{item.name}</h2></li>
                     <li> <img src={item.imageUrl} height={150} /> </li>
-                    <li><span className='label'>Films:</span> {item.films.map((films, j) => {return <span key={j}>{films}.</span>})} </li>
-                    <li><span className='label'>TV Shows:</span> {item.tvShows.map((shows, k) => {return <span key={k}>{shows}.</span>})} </li>
-                    <li><span className='label'>Video Games:</span> {item.videoGames.map((games, l) => {return <span key={l}>{games}.</span>})} </li>
-                    <li><span className='label'>Allies:</span> {item.allies.map((allies, m) => {return <span key={m}>{allies}.</span>})} </li>
-                    <li><span className='label'>Enemies:</span> {item.enemies.map((enemies, n) => {return <span key={n}>{enemies}.</span>})} </li>
+                    <li><span cl>Films:</span> {item.films.map((films, j) => {return <span key={j}>{films}.</span>})} </li>
+                    <li><span>TV Shows:</span> {item.tvShows.map((shows, k) => {return <span key={k}>{shows}.</span>})} </li>
+                    <li><span>Video Games:</span> {item.videoGames.map((games, l) => {return <span key={l}>{games}.</span>})} </li>
+                    <li><span>Allies:</span> {item.allies.map((allies, m) => {return <span key={m}>{allies}.</span>})} </li>
+                    <li><span>Enemies:</span> {item.enemies.map((enemies, n) => {return <span key={n}>{enemies}.</span>})} </li>
                   </ul>
               </div>})}
             </div>
