@@ -1,3 +1,8 @@
+### `Live Site:`
+http://ec2-100-24-235-62.compute-1.amazonaws.com/
+or
+http://100.24.235.62/
+
 
 In the project directory, run:
 
